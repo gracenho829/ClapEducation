@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA4FF9782B9C0D7F0048C6BC /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4FF9772B9C0D7F0048C6BC /* SplashView.swift */; };
 		FAD33B392B9BA5A600F55F71 /* ClapEducationiOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD33B382B9BA5A600F55F71 /* ClapEducationiOSApp.swift */; };
-		FAD33B3B2B9BA5A600F55F71 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD33B3A2B9BA5A600F55F71 /* ContentView.swift */; };
+		FAD33B3B2B9BA5A600F55F71 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD33B3A2B9BA5A600F55F71 /* LoginView.swift */; };
 		FAD33B3D2B9BA5A900F55F71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAD33B3C2B9BA5A900F55F71 /* Assets.xcassets */; };
 		FAD33B402B9BA5A900F55F71 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAD33B3F2B9BA5A900F55F71 /* Preview Assets.xcassets */; };
 		FAD33B4A2B9BA5A900F55F71 /* ClapEducationiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD33B492B9BA5A900F55F71 /* ClapEducationiOSTests.swift */; };
@@ -34,9 +35,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA4FF9772B9C0D7F0048C6BC /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		FAD33B352B9BA5A600F55F71 /* ClapEducationiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClapEducationiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAD33B382B9BA5A600F55F71 /* ClapEducationiOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClapEducationiOSApp.swift; sourceTree = "<group>"; };
-		FAD33B3A2B9BA5A600F55F71 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FAD33B3A2B9BA5A600F55F71 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		FAD33B3C2B9BA5A900F55F71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAD33B3F2B9BA5A900F55F71 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FAD33B452B9BA5A900F55F71 /* ClapEducationiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClapEducationiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +73,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA4FF9792B9C0E260048C6BC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FAD33B3A2B9BA5A600F55F71 /* LoginView.swift */,
+				FA4FF9772B9C0D7F0048C6BC /* SplashView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		FAD33B2C2B9BA5A600F55F71 = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +105,8 @@
 		FAD33B372B9BA5A600F55F71 /* ClapEducationiOS */ = {
 			isa = PBXGroup;
 			children = (
+				FA4FF9792B9C0E260048C6BC /* Views */,
 				FAD33B382B9BA5A600F55F71 /* ClapEducationiOSApp.swift */,
-				FAD33B3A2B9BA5A600F55F71 /* ContentView.swift */,
 				FAD33B3C2B9BA5A900F55F71 /* Assets.xcassets */,
 				FAD33B3E2B9BA5A900F55F71 /* Preview Content */,
 			);
@@ -257,8 +268,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAD33B3B2B9BA5A600F55F71 /* ContentView.swift in Sources */,
+				FAD33B3B2B9BA5A600F55F71 /* LoginView.swift in Sources */,
 				FAD33B392B9BA5A600F55F71 /* ClapEducationiOSApp.swift in Sources */,
+				FA4FF9782B9C0D7F0048C6BC /* SplashView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
